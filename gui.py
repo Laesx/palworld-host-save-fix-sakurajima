@@ -19,6 +19,7 @@ def browse_folder(entry):
         update_guid_dropdowns()
 
 def update_guid_dropdowns():
+
     folder_path = entry_save.get()
     players_folder = os.path.join(folder_path, 'Players')
     if os.path.exists(players_folder) and os.path.isdir(players_folder):
