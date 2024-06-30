@@ -1,5 +1,9 @@
 # Palworld Host Save Fix
 
+> ### :warning: Quick adaptation to make it work with Sakurajima Update, uses a workaround from [Palworld Save Tools #178](https://github.com/cheahjs/palworld-save-tools/issues/178) 
+> ### It hasn't been tested a lot but use [Palworld Save Tools v0.22.0](https://github.com/cheahjs/palworld-save-tools) with `python -m pip install palworld-save-tools==0.22.0` :warning:
+
+
 > ### :warning: This tool is experimental. Be careful of data loss and *always* make a backup. :warning:
 
 Fixes the bug which forces a player to create a new character when they already have a save.
@@ -40,7 +44,7 @@ To fix this bug, we've made a script that takes the GUID of the player on the ne
 
 Dependencies:
 - Python >=3.10
-- Install [Palworld Save Tools v0.17.1](https://github.com/cheahjs/palworld-save-tools) with `python -m pip install palworld-save-tools==0.17.1`
+- Install [Palworld Save Tools v0.22.0](https://github.com/cheahjs/palworld-save-tools) with `python -m pip install palworld-save-tools==0.22.0`
 - Clone the repository with `git clone https://github.com/xNul/palworld-host-save-fix`
 
 Using the GUI:
